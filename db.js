@@ -20,4 +20,3 @@ db.on("disconnected",()=>{
 
 module.exports = db;
 
-//ashish
