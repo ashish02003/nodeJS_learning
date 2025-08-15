@@ -1,6 +1,12 @@
 const mongoose = require("mongoose");
 
-const mongoURL = "mongodb://0.0.0.0:27017/prince";
+const mongoURL = "mongodb://0.0.0.0:27017/prince"; // this url is for only local
+
+
+// const mongoURL =  "mongodb+srv://aarush:aarush21315@cluster0.gm3ce.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
+
+           
 
 mongoose.connect(mongoURL)
 
